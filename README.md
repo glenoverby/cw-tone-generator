@@ -3,11 +3,15 @@ Morse Code Key Tone Generator
 
 This is a tone generator that I use with a morse code key for input to an SDR.
 It uses a 555 timer to generate a tone of 500-1000 Hertz, and a transistor
-to turn the tone input to the USB audio adapter on and off.
+to turn the tone output on and off.
 
-![Image of display](https://raw.githubusercontent.com/glenoverby/CW555.png)
-![Image of display](https://raw.githubusercontent.com/glenoverby/inside-half.jpg)
-![Image of display](https://raw.githubusercontent.com/glenoverby/outside-half.jpg)
+![Image of schematic](https://github.com/glenoverby/cw-tone-generator/raw/master/CW555.png)
+
+Assembly was done "dead bug" style on an IC socket.
+
+![Image of inside](https://raw.githubusercontent.com/glenoverby/cw-tone-generator/master/inside-half.jpg)
+
+![Image of outside](https://raw.githubusercontent.com/glenoverby/cw-tone-generator/master/outside-half.jpg)
 
 The USB audio adapter is a cheap 48khz 16 adapter from my junk pile.
 The microphone input connector broke off but it was good for this project.
